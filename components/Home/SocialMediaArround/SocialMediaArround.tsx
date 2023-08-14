@@ -4,7 +4,7 @@ import GithubIcon from "../../Icons/GithubIcon";
 import LinkedinIcon from "../../Icons/LinkedinIcon";
 import InstagramIcon from "../../Icons/InstagramIcon";
 import YoutubeIcon from "../../Icons/YoutubeIcon";
-import MediumIcon from "../../Icons/MediumIcon"
+import MediumIcon from "../../Icons/MediumIcon";
 
 const IconClickableWithAnimation = props => {
   return (
