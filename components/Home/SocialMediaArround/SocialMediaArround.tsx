@@ -41,7 +41,7 @@ export default function SocialMediaEmail(props: { finishedLoading: boolean }) {
             {/* Youtube Icon */}
             <IconClickableWithAnimation Icon={YoutubeIcon} href={"https://www.youtube.com/@abdellatif_anaflous"} />
             {/* Youtube Icon */}
-            <IconClickableWithAnimation Icon={MediumIcon} href={"https://www.youtube.com/@abdellatif_anaflous"} />
+            <IconClickableWithAnimation Icon={MediumIcon} href={"https://www.youtube.com/@avinash28196"} />
 
           </div>
           <div className="h-28 w-0.5 bg-gray-400"></div>

@@ -26,7 +26,7 @@ export default function Fotter(props:{link:string,className:string}) {
             Icon={GithubIcon}
           />
           <ClickableIcon
-            href={"https://www.linkedin.com/in/abdellatif-anaflous/"}
+            href={"https://www.linkedin.com/in/avinash28196/"}
             Icon={LinkedinIcon}
           />
           <ClickableIcon
@@ -40,11 +40,11 @@ export default function Fotter(props:{link:string,className:string}) {
         </div>
         <a href={props.link} className="" target={"_blank"} rel="noreferrer">
           <div
-            className="group flex flex-col font-mono justify-center items-center  text-gray-400 
+            className="group flex flex-col font-mono justify-center items-center  text-gray-400
     text-sm  space-y-2  "
           >
             <span className="group-hover:text-AAsecondary sm:text-sm text-xs">
-              Designed & Built by Anaflous Abdellatif
+              Designed & Built by Avinash R
             </span>
 
             <span className="text-xs flex flex-row items-center space-x-2 group-hover:text-AAsecondary">
