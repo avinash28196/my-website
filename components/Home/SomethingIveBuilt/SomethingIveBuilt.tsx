@@ -11,7 +11,7 @@ export default function SomethingIveBuilt() {
   return (
     <div
       id="SomethingIveBuiltSection"
-      className=" flex flex-col xl:space-y-28 space-y-12 bg-AAprimary w-full  
+      className=" flex flex-col xl:space-y-28 space-y-12 bg-AAprimary w-full
      2xl:px-72 lg:px-24 md:px-16 sm:px-16 py-32 px-4"
     >
       {/* // ? Title  */}
@@ -32,27 +32,20 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden bg-AAprimary z-10  py-4
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
-              {/* <Link href={"/typing"}>
-                <div
-                  // onClick={}
-                  className="absolute w-full h-full rounded bg-AAsecondary 
-           transition-opacity opacity-20 hover:opacity-0 hover:cursor-pointer duration-300"
-                ></div>
-              </Link> */}
 
               <a href="https://www.ens.vision" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
+                  className="absolute w-full h-full rounded bg-AAprimary
            transition-opacity opacity-30 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
 
-              <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"/AIA.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -63,25 +56,25 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/ensvision.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
+                <Img src={"/AIA.jpg"} alt={"Project Screen shot"} className={`w-full h-full `} />
               </div>
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <span className="text-AAsecondary text-base">ENS Vision </span>
+                <span className="text-AAsecondary text-base">MSRIT </span>
                 <a href="https://ens.vision" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    ENS names Marketplace
+                    Automatic Image Annotation FrameWork
                   </span>
                 </a>
               </div>
               <div className="w-full md:bg-AAtertiary rounded-md py-6 md:p-6  z-10">
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right ">
-                  At <span className="text-AAsecondary">ENS Vision</span>, I played a crucial role in developing web3
+                  At <span className="text-AAsecondary">MSRIT</span>, I played a crucial role in developing web3
                   components for their <span className="text-AAsecondary">web3 application</span> using Next.js and web3
                   libraries. Our focus was on integrating new features and improving the user interface. One notable
                   achievement was the release of NameWrapper with <span className="text-AAsecondary">ERC72</span>{" "}
@@ -93,14 +86,14 @@ export default function SomethingIveBuilt() {
                 className="flex flex-wrap w-full text-gray-300 md:text-gray-400
                text-sm font-Text2 md:justify-end"
               >
-                <span className="pr-4 z-10">ENS domains</span>
-                <span className="pr-4 z-10">ENS names</span>
-                <span className="pr-4 z-10">web3</span>
-                <span className="pr-4 z-10">NFT</span>
-                <span className="pr-4 z-10">ERC72</span>
+                <span className="pr-4 z-10">MatLab</span>
+                <span className="pr-4 z-10">OpenCV</span>
+                <span className="pr-4 z-10">python</span>
+                <span className="pr-4 z-10">HTML</span>
+                <span className="pr-4 z-10">CSS</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
-                <a href="https://www.ens.vision/" target={"_blank"} rel="noreferrer">
+                <a href="https://github.com/avinash28196/Image-Annotation-FrameWork" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
               </div>
@@ -112,17 +105,17 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden bg-AAprimary z-10  py-4
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href={"https://ubiquitous-bublanina-da84ec.netlify.app/"} target="_blank" rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded bg-AAprimary 
+                  className="absolute w-full h-full rounded bg-AAprimary
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
-              <Img src={"/img/YPredict-v1.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
+              <Img src={"NewApp.png"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
 
@@ -133,12 +126,12 @@ export default function SomethingIveBuilt() {
               <div className="relative w-full h-full">
                 <div className="absolute w-full h-full bg-AAsecondary opacity-10 z-10"></div>
                 <div className="absolute w-full h-full bg-AAprimary opacity-80 z-10"></div>
-                <Img src={"/hackme.jpg"} alt={"Project Screen shot"} className={`w-full h-full`} />
+                <Img src={"NewApp.png"} alt={"Project Screen shot"} className={`w-full h-full`} />
               </div>
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
@@ -182,14 +175,14 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96 ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden bg-AAprimary z-10  py-4
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <Link href={"/typing"}>
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAsecondary 
+                  className="absolute w-full h-full rounded bg-AAsecondary
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
@@ -210,7 +203,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -250,13 +243,13 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden bg-AAprimary z-10  py-4
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <Link href={"/userdatapuller"}>
                 <div
-                  className="absolute w-full h-full rounded bg-AAsecondary 
+                  className="absolute w-full h-full rounded bg-AAsecondary
            transition-opacity opacity-10 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </Link>
@@ -276,7 +269,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6
             col-span-8 flex flex-col items-start  space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">
@@ -319,14 +312,14 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden bg-AAprimary z-10  py-4
           absolute md:grid grid-cols-12 w-full h-full  content-center"
           >
             <div className="relative rounded w-full h-full col-span-7 ">
               <a href="https://www.haircut.ma" target={"_blank"} rel="noreferrer">
                 <div
                   // onClick={}
-                  className="absolute w-full h-full rounded bg-AAprimary 
+                  className="absolute w-full h-full rounded bg-AAprimary
            transition-opacity opacity-50 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
@@ -354,7 +347,7 @@ export default function SomethingIveBuilt() {
               <span className="text-AAsecondary sm:text-lg bg-AAprimary px-2 py-1 rounded">In initiation...</span>
             </div>
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5 
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6 xl:col-start-7 col-start-5
             col-span-8 flex flex-col items-start md:items-end sm:space-y-3 space-y-1"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
@@ -396,13 +389,13 @@ export default function SomethingIveBuilt() {
         <div data-aos="fade-up" className="relative md:grid md:grid-cols-12 w-full md:h-96  ">
           {/* Left image */}
           <div
-            className="hidden bg-AAprimary z-10  py-4 
+            className="hidden bg-AAprimary z-10  py-4
           absolute md:grid grid-cols-12 w-full h-full  content-center "
           >
             <div className="relative rounded w-full h-full col-start-6 col-span-7 ">
               <a href="https://github.com/hktitof/CallCenter" target={"_blank"} rel="noreferrer">
                 <div
-                  className="absolute w-full h-full rounded bg-AAprimary 
+                  className="absolute w-full h-full rounded bg-AAprimary
            transition-opacity opacity-60 hover:opacity-0 hover:cursor-pointer duration-300"
                 ></div>
               </a>
@@ -423,7 +416,7 @@ export default function SomethingIveBuilt() {
             </div>
 
             <div
-              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6   
+              className="px-8 pt-8 sm:pt-12 md:py-0 xl:col-span-6
             col-span-8 flex flex-col items-start  sm:space-y-3 md:order-1"
             >
               <div className="flex flex-col space-y-1  z-10">

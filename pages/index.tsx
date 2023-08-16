@@ -8,6 +8,7 @@ import ThisCantBeReached from "../components/Home/ThisSiteCantBeReached/ThisCant
 import WhereIHaveWorked from "../components/Home/WhereIHaveWorked/WhereIHaveWorked";
 import SomethingIveBuilt from "../components/Home/SomethingIveBuilt/SomethingIveBuilt";
 import GetInTouch from "../components/Home/GetInTouch/GetInTouch";
+import BookShelf from "../components/Home/BookShelf/BookShelf"
 import Footer from "../components/Footer/Footer";
 import AppContext from "../components/AppContextFolder/AppContext";
 import Aos from "aos";
@@ -56,7 +57,7 @@ export default function Home() {
 
   console.log("Portfolio Rendered...");
   const meta = {
-    title: "Abdellatif Anaflous - Software Engineer",
+    title: "Avinash Ramesh - Software Engineer",
     description: `I've been working on Software development for 5 years straight. Get in touch with me to know more.`,
     image: "/Avi-1.png",
     type: "website",
@@ -69,8 +70,8 @@ export default function Home() {
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
         <meta content={meta.description} name="description" />
-        <meta property="og:url" content={`https://anaflous.com`} />
-        <link rel="canonical" href={`https://anaflous.com`} />
+        <meta property="og:url" content={`https://avinash.wiki`} />
+        <link rel="canonical" href={`https://avinash.wiki`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Manu Arora" />
         <meta property="og:description" content={meta.description} />
@@ -91,6 +92,7 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <AboutMe ref={aboutRef} /> : <></>}
         {context.sharedState.finishedLoading ? <WhereIHaveWorked /> : <></>}
         {context.sharedState.finishedLoading ? <SomethingIveBuilt /> : <></>}
+        {context.sharedState.finishedLoading ? <BookShelf /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
           <Footer githubUrl={"https://github.com/hktitof/my-website"} hideSocialsInDesktop={true} />
