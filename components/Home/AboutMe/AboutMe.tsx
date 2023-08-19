@@ -3,8 +3,8 @@ import Img from "../../../components/smallComp/image/Img";
 import ArrowIcon from "../../../components/Icons/ArrowIcon";
 export default function AboutMe(props) {
   const technologies = [
-    ["Next.js", "JavaScript (ES6+)", "Tailwind CSS", "Ether.js", "Solidity"],
-    ["Node.js", "TypeScript", "Framer Motion", "react-moralis", "web3.js"],
+    ["Java-8", "Data Warehouse", "AWS", "Python-3", "MySql"],
+    ["Vault", "Springboot", "Apache Kafka", "GCP", "Plotly"],
   ];
   return (
     <div id="aboutSection" data-aos="fade-up" className="snap-start flex flex-col  items-center py-20 bg-AAprimary">
@@ -37,13 +37,23 @@ export default function AboutMe(props) {
             </div>
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Since pursuing my engineering degree, my career has taken me through diverse industries, allowing me to
-                refine my expertise in desktop and web development. In the realm of{" "}
-                <span className="text-AAsecondary">web3</span>, I am dedicated to pushing boundaries and driving
-                advancements. With experience working alongside esteemed organizations like{" "}
-                <span className="text-AAsecondary">ENS Vision</span>, where I played a key role in releasing v2 of{" "}
-                <span className="text-AAsecondary">ENS Vision Marketplace</span> , my passion for web3 and continuous
-                learning drives me to make a positive impact and advance technology.
+                Most of my time is spent staring at a computer screen. During the day, I am usually programming, working to derive insight from large datasets.
+                My skills include{" "}
+                <span className="text-AAsecondary">data analysis </span>,{" "}
+                <span className="text-AAsecondary">data engineering </span>, and{" "}
+
+                <span className="text-AAsecondary">machine learning</span>.
+                I have developed a strong acumen for problem solving, and I enjoy an occasional challenge.
+                I often work on end-to-end data engineering projects that usually begin from collecting data from Research Computation and end with delivering business
+                insight to Research Scientists.
+              </span>
+            </div>
+
+            <div className="font-Header ">
+              <span className="text-gray-400 ">
+                At night, I take some time off to work on things I'm passionate about.
+                I write articles and publish them on the Internet. Sometimes, I create personal projects and write tutorials on them.
+                I also enjoy going on sites like <span className="text-AAsecondary">HackerRank</span>, <span className="text-AAsecondary">Kaggle </span> and trying out their programming challenges.
               </span>
             </div>
             {/* <div className="font-Header tracking-wide">

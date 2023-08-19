@@ -81,7 +81,7 @@ const CompaniesBar = props => {
           setCompanyNameBackgroundColorGreen(props.CompanyNameBackgroundColorGreen);
         }}
         className={`flex-none sm:text-sm text-xs text-center md:text-left  hover:text-AAsecondary
-             hover:bg-ResumeButtonHover rounded  font-mono  
+             hover:bg-ResumeButtonHover rounded  font-mono
              py-3 md:pl-6 md:px-4 md:w-44 w-32 duration-500
              ${
                companyNameBackgroundColorGreen[props.ButtonOrderOfcompanyNameBackgroundColorGreen]
@@ -97,13 +97,13 @@ const CompaniesBar = props => {
   return (
     <div
       id="WhereIhaveWorkedSection"
-      className=" flex flex-col md:flex-row  w-screen lg:w-auto 
+      className=" flex flex-col md:flex-row  w-screen lg:w-auto
       overflow-auto scrollbar-hide md:overflow-hidden pb-4 md:pb-0 justify-start
        sm:justify-center items-start sm:items-center"
     >
       {/* // ? left bar Holder */}
       <div
-        className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[297px] translate-y-1 md:w-0.5  
+        className=" hidden md:block bg-gray-500 relative h-0.5 w-34 md:h-[297px] translate-y-1 md:w-0.5
         rounded md:order-1 order-2  "
       >
         {/* // ? animated left bar */}
@@ -118,7 +118,7 @@ const CompaniesBar = props => {
         <div className="flex flex-row md:flex-col">
         <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={0}
-            CompanyName="ENS Vision"
+            CompanyName="BayerCropScience"
             BarPosition={-12}
             BarAvobePosition={1}
             DescriptionJob="ENSVision"
@@ -145,7 +145,7 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={3}
-            CompanyName="IdealFresh"
+            CompanyName="HummingGenie"
             BarPosition={120}
             BarAvobePosition={385}
             DescriptionJob="IdealFresh"
@@ -163,7 +163,7 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={5}
-            CompanyName="AA Management"
+            CompanyName="DiscoverFinacial"
             BarPosition={208}
             BarAvobePosition={641}
             DescriptionJob="Advanced Agro Management"
@@ -172,7 +172,7 @@ const CompaniesBar = props => {
           />
           <CompanyButton
             ButtonOrderOfcompanyNameBackgroundColorGreen={6}
-            CompanyName="Fantasia SME"
+            CompanyName="A&Z Bank"
             BarPosition={252}
             BarAvobePosition={769}
             DescriptionJob="Fantasia"

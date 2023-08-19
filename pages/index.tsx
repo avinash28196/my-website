@@ -95,7 +95,7 @@ export default function Home() {
         {context.sharedState.finishedLoading ? <BookShelf /> : <></>}
         {context.sharedState.finishedLoading ? <GetInTouch /> : <></>}
         {context.sharedState.finishedLoading ? (
-          <Footer githubUrl={"https://github.com/hktitof/my-website"} hideSocialsInDesktop={true} />
+          <Footer githubUrl={"https://github.com/avinash28196/my-website"} hideSocialsInDesktop={true} />
         ) : (
           <></>
         )}
